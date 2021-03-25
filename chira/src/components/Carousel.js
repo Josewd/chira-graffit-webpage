@@ -17,6 +17,12 @@ export const Container = styled.div`
   border: 4px solid #d3d325;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #444444;
+  @media screen and (max-width: 800px){
+      width: 80vw;
+      height: 50vh;
+      margin: auto;
+      margin-top: 100px;
+  }
 `
 
 const Image = styled.img`
@@ -28,6 +34,12 @@ const Image = styled.img`
     height: 60vh;
     border-radius: 50%;
     border: 4px solid black;
+    @media screen and (max-width: 800px){
+      width:75vw;
+      height: 40vh;
+      margin-left: 3vw;
+      margin-top: 0px;
+  }
   
 `
 
@@ -44,6 +56,9 @@ const Main = styled.div`
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    @media screen and (max-width: 800px){
+     flex-direction: column;
+  }
 
 `
 const TextContainer = styled.div`
@@ -61,6 +76,11 @@ const TextContainer = styled.div`
     filter: opacity(70%);
     z-index: 1;
     position: relative;
+    @media screen and (max-width: 800px){
+      width: 65vw;
+      height: 32vh;
+      font-size: 2.5vw;
+  }
 `
 
 const Title = styled.div`
@@ -69,8 +89,12 @@ const Title = styled.div`
      color: white;
      text-transform: uppercase;
      position: absolute;
-     top: -40px;
+     top: -58vh;
      left: 10px;
+     @media screen and (max-width: 800px){
+      font-size: 25px;
+      top: -55.5vh
+  }
 
 `
 
